@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Sosanh {
+    public static void main(String[] args) {
+        double a , b ;
+        Scanner sc = new scanner(System.in);
+        System.out.println("Nhập vào số thứ 1: ");
+        a = sc.nextDouble();
+        System.out.println("Nhập vào số thứ 2: ");
+        b = sc.nextDouble();
+        if(a == b) {
+        System.out.println(a + "bằng" + b);
+    }else if(a < b) {
+        System.out.println(a + "nhỏ hơn" + b);
+    }else{
+        System.out.println(a + "lớn hơn" + b);
+    }
+}
+}
