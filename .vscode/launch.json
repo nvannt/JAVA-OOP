@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Slide30",
+      "request": "launch",
+      "mainClass": "BTTH.Slide30",
+      "projectName": "JAVA OOP_bec8afac"
+    },
+    {
+      "type": "java",
+      "name": "slide30",
+      "request": "launch",
+      "mainClass": "BTTH.slide30",
+      "projectName": "JAVA OOP_bec8afac"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": ".",
+      "program": "build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
