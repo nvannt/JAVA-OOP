@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class Tinhtoan {
+    public static void main(String[] args) {
+     double firstnumber , secondnumber;
+     Scanner sc = new scanner(System.in);
+     System.out.println("Nhập vào số thứ 1:");
+     firstnumber = scanner.nextdouble();
+     System.out.println("Nhập vào số thứ 2:");
+     secondnumber = scanner.nextdouble();
+    }
+    double tong = firstnumber + secondnumber;
+    System.out.println(firstnumber +
+      "+" + secondnumber + "=" + tong);
+    double hieu = firstnumber - secondnumber;
+     System.out.println(firstnumber +
+      + "-" + secondnumber + "=" + hieu);
+    double tich = firstnumber * secondnumber;
+      System.out.println(firstnumber +
+       + "*" + secondnumber + "=" + tich);
+    float thuong = firstnumber / secondnumber;
+      System.out.println(firstnumber + "/" + secondnumber +"=" + thuong);
+    float phandu = firstnumber % secondnumber;
+      System.out.println(firstnumber + "%" + secondnumber + "=" + phandu);
+}
